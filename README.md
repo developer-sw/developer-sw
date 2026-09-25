@@ -9,7 +9,7 @@
 
 <br>
 
-`Java` `Spring Boot` `Spring Security` `JPA` `MySQL` `Docker`
+`Java` `Spring Boot` `MySQL` `Docker`
 
 </div>
 

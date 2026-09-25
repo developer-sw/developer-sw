@@ -63,23 +63,15 @@
 
 ### 👔 입을래? — AI 기반 명품 활용 서비스
 
-> 취향·보유 아이템·상황 데이터를 연결해  
-> 명품의 구매 전 판단부터 착용·관리까지 지원하는 서비스
+> 취향·보유 아이템·상황 데이터를 연결해 구매 전 판단부터 착용·관리까지 지원하는 서비스
 
-**2026 멋쟁이사자처럼 중앙해커톤**  
-Backend Developer · Frontend 2 / Backend 2 / Design 1  
-2026.07 ~ 2026.08
+**Backend Developer · 2026 멋쟁이사자처럼 중앙해커톤**
 
-`Java 21` `Spring Boot` `Spring Security` `JPA` `MySQL`  
-`Flyway` `Testcontainers` `Docker` `OpenAI API`
+`Java 21` `Spring Boot` `MySQL` `Flyway` `Testcontainers` `Docker` `OpenAI API`
 
-### Key Contribution
-
-- Flyway 기반 DB Migration 관리 체계 구축
-- Testcontainers 기반 MySQL 통합 테스트 환경 구성
-- Rule-Based 분석과 OpenAI 자연어 설명 역할 분리
-- 외부 AI API를 공통 비동기 Job 구조로 설계
-- Cloudinary 기반 이미지 처리 및 ITEM_ANALYSIS 구현
+- Flyway + Testcontainers 기반 DB 변경 관리 및 MySQL 통합 테스트 환경 구축
+- Rule-Based 분석과 OpenAI 설명을 분리하고 공통 비동기 AI Job 구조 설계
+- Cloudinary 이미지 파이프라인 및 ITEM_ANALYSIS 구현
 
 👉 **[Repository](https://github.com/developer-sw/ippulrae-backend)**
 

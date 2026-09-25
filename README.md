@@ -17,9 +17,9 @@
 
 ## About Me
 
--Java와 Spring Boot를 중심으로 백엔드 개발을 공부하고 있습니다.
--REST API·관계형 데이터베이스 설계와 테스트 가능한 구조에 관심이 있습니다.
--Docker·CI와 AI Integration을 활용해 개발부터 배포까지 이어지는 경험을 쌓고 있습니다.
+- Java와 Spring Boot를 중심으로 백엔드 개발을 공부하고 있습니다.
+- REST API·관계형 데이터베이스 설계와 테스트 가능한 구조에 관심이 있습니다.
+- Docker·CI와 AI Integration을 활용해 개발부터 배포까지 이어지는 경험을 쌓고 있습니다.
 
 
 ---

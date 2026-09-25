@@ -81,3 +81,10 @@
 - Frontend 개발 경험 이후 Backend 과정에 참여하며 Java / Spring Boot를 중심으로 학습
 - REST API 및 서버 애플리케이션 개발 경험
 - 팀 프로젝트를 통한 Frontend · Backend · Design 협업 경험
+
+---
+
+## Contact
+
+- GitHub: [developer-sw](https://github.com/developer-sw)
+- Email: swj1234567@naver.com

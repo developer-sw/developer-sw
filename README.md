@@ -77,7 +77,7 @@
 
 ### 🦁 멋쟁이사자처럼
 
-- 멋사대학 13기, 14기 과정
+- 멋쟁이사자처럼 대학 13기 · 14기 활동
 - Frontend 개발 경험 이후 Backend 과정에 참여하며 Java / Spring Boot를 중심으로 학습
 - REST API 및 서버 애플리케이션 개발 경험
 - 팀 프로젝트를 통한 Frontend · Backend · Design 협업 경험

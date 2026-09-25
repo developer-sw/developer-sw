@@ -59,21 +59,17 @@
 
 ---
 
-## Featured Project
+## Projects
 
-### 👔 입을래? — AI 기반 명품 활용 서비스
+### 👔 입을래?
+**AI 기반 명품 구매·활용 지원 서비스**
 
-> 취향·보유 아이템·상황 데이터를 연결해 구매 전 판단부터 착용·관리까지 지원하는 서비스
+- **Role:** Backend Developer
+- **Tech:** `Java 21` `Spring Boot` `MySQL` `Flyway` `Testcontainers` `Docker` `OpenAI API`
+- **Focus:** DB Migration · MySQL 통합 테스트 · 비동기 AI Job · 이미지 분석 파이프라인
+- **Period:** 2026.07 ~ 2026.08
 
-**Backend Developer · 2026 멋쟁이사자처럼 중앙해커톤**
-
-`Java 21` `Spring Boot` `MySQL` `Flyway` `Testcontainers` `Docker` `OpenAI API`
-
-- Flyway + Testcontainers 기반 DB 변경 관리 및 MySQL 통합 테스트 환경 구축
-- Rule-Based 분석과 OpenAI 설명을 분리하고 공통 비동기 AI Job 구조 설계
-- Cloudinary 이미지 파이프라인 및 ITEM_ANALYSIS 구현
-
-👉 **[Repository](https://github.com/developer-sw/ippulrae-backend)**
+👉 [Repository](https://github.com/developer-sw/ippulrae-backend)
 
 ---
 
@@ -81,6 +77,7 @@
 
 ### 🦁 멋쟁이사자처럼
 
+- 멋사대학 13기, 14기 과정
 - Frontend 개발 경험 이후 Backend 과정에 참여하며 Java / Spring Boot를 중심으로 학습
 - REST API 및 서버 애플리케이션 개발 경험
 - 팀 프로젝트를 통한 Frontend · Backend · Design 협업 경험

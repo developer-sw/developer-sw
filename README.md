@@ -1,16 +1,14 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**developer-sw/developer-sw** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Backend Developer
 
-Here are some ideas to get you started:
+### Java & Spring Boot Backend Developer
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+기능 구현에 그치지 않고  
+**데이터 정합성 · 테스트 · 배포와 운영까지 고려하는 백엔드 개발**을 지향합니다.
+
+<br>
+
+`Java` `Spring Boot` `Spring Security` `JPA` `MySQL` `Docker`
+
+</div>

@@ -84,5 +84,4 @@
 
 ## Contact
 
-- GitHub: [developer-sw](https://github.com/developer-sw)
-- Email: swj1234567@naver.com
+- Email: swjsoftware01@gmail.com

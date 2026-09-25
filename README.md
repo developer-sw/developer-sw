@@ -83,9 +83,12 @@ Backend Developer · Frontend 2 / Backend 2 / Design 1
 
 👉 **[Repository](https://github.com/developer-sw/ippulrae-backend)**
 
-**DB 변경 관리 및 통합 테스트**
+---
 
-Flyway로 Schema 변경 이력을 관리하고,  
-Testcontainers를 활용해 실제 MySQL 환경에서 통합 테스트를 수행했습니다.
+## Experience & Activities
 
-👉 **[Repository](https://github.com/developer-sw/ippulrae-backend)**
+### 🦁 멋쟁이사자처럼
+
+- Frontend 개발 경험 이후 Backend 과정에 참여하며 Java / Spring Boot를 중심으로 학습
+- REST API 및 서버 애플리케이션 개발 경험
+- 팀 프로젝트를 통한 Frontend · Backend · Design 협업 경험

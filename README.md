@@ -65,8 +65,7 @@
 
 - **Role:** Backend Developer
 - **Tech:** `Java 21` `Spring Boot` `MySQL` `Flyway` `Testcontainers` `Docker` `OpenAI API`
-- **Focus:** DB Migration · MySQL 통합 테스트 · 비동기 AI Job · 이미지 분석 파이프라인
-- **Highlights:** Flyway V1~V21 · 3종 Async AI Job · Testcontainers 기반 MySQL 통합 테스트
+- **Focus:** Flyway Migration `V1~V21` · Testcontainers MySQL 통합 테스트 · `3종` 비동기 AI Job · 이미지 분석 파이프라인
 - **Period:** 2026.07 ~ 2026.08
 
 👉 [Repository](https://github.com/developer-sw/ippulrae-backend)

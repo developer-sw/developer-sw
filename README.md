@@ -69,6 +69,8 @@
 <p>
   <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white"/>
 </p>
+
+
 ---
 
 ## Projects

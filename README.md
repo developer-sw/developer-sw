@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./잔잔한 파도와 백엔드 개발자.gif" alt="Backend Developer — Building reliable backend services with Java & Spring Boot" width="100%" />
+<img src="./backend-banner (1).gif" alt="Backend Developer — Building reliable backend services with Java & Spring Boot" width="100%" />
 
 <br>
 <br>

@@ -1,9 +1,8 @@
-
 <div align="center">
 
-# Backend Developer
+<img src="./backend-banner.gif" alt="Backend Developer — Building reliable backend services with Java & Spring Boot" width="100%" />
 
-### Building reliable backend services with Java & Spring Boot
+<br>
 
 기능 구현에 그치지 않고  
 **데이터 정합성 · 테스트 · 배포와 운영까지 고려하는 백엔드 개발**을 지향합니다.
@@ -102,7 +101,6 @@
 👉 [Repository](https://github.com/developer-sw/ippulrae-backend)
 
 ---
-
 
 ## Experience & Activities
 

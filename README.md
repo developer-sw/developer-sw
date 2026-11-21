@@ -33,14 +33,9 @@
 
 - **실제 운영:** 2026년 10월부터 운영 중이며, **가입자 30명 이상**(2026년 11월 기록 기준)
 - **핵심 구현:** 개인·공연조 예약, 주간 반복 배정, 예약 변경·교환, 역할별 권한, Web Push 알림
+- **데이터 정합성:** PostgreSQL 트랜잭션·행 잠금·DB 제약을 활용한 예약 충돌 및 중복 처리 방지
 - **테스트·자동화:** Testcontainers 기반 실제 PostgreSQL 통합 테스트와 GitHub Actions CI 구축
-- **운영:** AWS Lightsail·Docker 배포 및 S3 암호화 백업 자동화
-
-**Engineering Highlights — 문제 → 해결 → 검증**
-
-- **동시 예약 충돌:** 개인의 악기별 공유 예약과 공연조의 합주실 독점 예약이 동시에 요청될 수 있음 → PostgreSQL 트랜잭션·행 잠금·DB 점유 제약으로 충돌 제어 → [예약 Repository](https://github.com/developer-sw/jeongeum-band-scheduler/blob/main/backend/src/main/java/kr/jeongeum/scheduler/reservation/repository/ReservationRepository.java) 및 [실제 PostgreSQL 통합 테스트](https://github.com/developer-sw/jeongeum-band-scheduler/blob/main/backend/src/test/java/kr/jeongeum/scheduler/ReservationIntegrationTest.java)로 경합·경계 조건 검증
-- **예약 변경·교환 실패 시 원본 보존:** 새 점유 생성 중 충돌·권한·한도 검증이 실패할 수 있음 → 원본 점유 해제·신규 점유·한도 반영을 단일 트랜잭션으로 처리 → [변경 설계](https://github.com/developer-sw/jeongeum-band-scheduler/blob/main/docs/RESERVATION_CHANGES.md)와 [교환 설계](https://github.com/developer-sw/jeongeum-band-scheduler/blob/main/docs/RESERVATION_EXCHANGES.md)에 기록된 롤백·원본 보존 검증
-- **운영 데이터 복구 검증:** 백업 파일만으로는 복원 가능성을 보장할 수 없음 → 운영 DB를 암호화 백업하고 별도 PostgreSQL 환경에서 복원 → **2026-11-15 기록 기준** 39개 테이블·29개 시퀀스·Flyway V1~V13·22개 예약 블록 대조 ([백업·복원 기록](https://github.com/developer-sw/jeongeum-band-scheduler/blob/main/docs/OPERATIONAL_DATABASE_BACKUPS.md))
+- **운영·복구:** AWS Lightsail·Docker 배포, S3 암호화 백업 및 별도 PostgreSQL 환경으로의 복원 검증
 
 **검증 기록:** [2026-11-15 기준 CI 7개 작업 성공](https://github.com/developer-sw/jeongeum-band-scheduler/actions/runs/43561431440) · Backend **406건** / Frontend **441건** 테스트 통과(해당 실행 기록 기준)
 
@@ -61,41 +56,6 @@
 **Tech:** `Java 21` `Spring Boot` `JPA` `MySQL` `Flyway` `Testcontainers` `Docker` `OpenAI API`
 
 [Repository](https://github.com/developer-sw/ippulrae-backend) · [Flyway·통합 테스트 기여 PR](https://github.com/pro660/Hackathon_BE/pull/21) · [비동기 AI Job 기여 PR](https://github.com/pro660/Hackathon_BE/pull/36)
-
-
----
-
-## Other Projects
-
-백엔드 중심 역량에 더해, 직접 담당한 프론트엔드 구현 경험도 확인할 수 있습니다.
-
-| 프로젝트 | 담당 영역 | 현재 범위 |
-| --- | --- | --- |
-| [한서대 분실·습득물 관리 시스템](https://github.com/developer-sw/hanseo-lost-found-frontend) | **Frontend** · React / TypeScript / Vite 기반 학생·관리자 반응형 UI | 개발용 프로토타입 · 백엔드 API 미연동 |
-| [붕붕 \| BoongBoong](https://github.com/developer-sw/boongboong) | **Frontend** · React / JavaScript 기반 프로필·설정·인증 관련 모바일 UI | 팀 프로젝트 · 본인 담당 UI 기준 |
-
-### Representative Screens
-
-실제 프로젝트 저장소에 포함된 화면 캡처입니다. **입을래?**는 팀 서비스 화면(본인 역할: 백엔드), **붕붕**은 본인이 담당한 UI 화면입니다. **정음**은 [운영 서비스](https://bandjeongeum.studio/)에서 확인할 수 있습니다.
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://github.com/developer-sw/ippulrae-backend">
-        <img src="https://raw.githubusercontent.com/developer-sw/ippulrae-backend/main/docs/images/purchase-utility-report.png" alt="입을래? 서비스의 구매 활용성 분석 화면" width="290"/>
-      </a>
-      <br/>
-      <sub>입을래? · 구매 활용성 분석 (팀 서비스 화면)</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/developer-sw/boongboong">
-        <img src="https://raw.githubusercontent.com/developer-sw/boongboong/main/docs/images/profile-edit.png" alt="붕붕 서비스의 모바일 프로필 수정 화면" width="230"/>
-      </a>
-      <br/>
-      <sub>붕붕 · 프로필 수정 (직접 구현한 UI)</sub>
-    </td>
-  </tr>
-</table>
 
 ---
 

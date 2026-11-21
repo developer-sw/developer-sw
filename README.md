@@ -72,7 +72,7 @@
 | 프로젝트 | 담당 영역 | 현재 범위 |
 | --- | --- | --- |
 | [한서대 분실·습득물 관리 시스템](https://github.com/developer-sw/hanseo-lost-found-frontend) | **Frontend** · React / TypeScript / Vite 기반 학생·관리자 반응형 UI | 개발용 프로토타입 · 백엔드 API 미연동 |
-| [붕붕 | BoongBoong](https://github.com/developer-sw/boongboong) | **Frontend** · React / JavaScript 기반 프로필·설정·인증 관련 모바일 UI | 팀 프로젝트 · 본인 담당 UI 기준 |
+| [붕붕 \| BoongBoong](https://github.com/developer-sw/boongboong) | **Frontend** · React / JavaScript 기반 프로필·설정·인증 관련 모바일 UI | 팀 프로젝트 · 본인 담당 UI 기준 |
 
 ### Representative Screens
 
@@ -96,6 +96,7 @@
     </td>
   </tr>
 </table>
+
 ---
 
 ## Tech Stack
